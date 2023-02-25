@@ -5,9 +5,9 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .page {
@@ -18,6 +18,8 @@
 .header {
   display: flex;
   align-items: center;
+
+  margin-bottom: 125px;
 }
 
 .header__logo {
@@ -25,10 +27,10 @@
 }
 
 .navbar__list {
-  width: 350px;
-
   display: flex;
   justify-content: space-between;
+
+  width: 350px;
 
   list-style: none;
 }
@@ -36,38 +38,40 @@
 .navbar__link {
   font-size: 20px;
   font-weight: 500;
-  color: #7e7f86;
+
+  transition: 0.2s;
   text-decoration: none;
+
+  color: #7E7F86;
 }
 
-.navbar__link_active, .navbar__link:hover {
-  color: #25202f;
+.navbar__link_active,
+.navbar__link:hover {
+  color: #25202F;
 }
 
-.welcome-section {
-  margin-top: 125px;
+.welcome {
   margin-bottom: 270px;
 }
 
-.welcome-section__heading {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 120%;
-
-  color: #25202f;
-  margin-bottom: 0;
+.welcome__heading {
+  margin-bottom: 20px;
 }
 
-.heading {
+.heading-h1 {
+  font-size: 60px;
   font-weight: 700;
+  line-height: 120%;
+
+  color: #25202F;
 }
 
 .text {
   font-size: 21px;
 }
 
-.welcome-section__text {
-    margin-bottom: 54px;
+.welcome__text {
+  margin-bottom: 54px;
 }
 
 .text__hello {
@@ -76,21 +80,22 @@
   color: #666666;
 }
 
-.welcome-section__button {
+.welcome__button {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+
   width: 200px;
   height: 60px;
-  background-color: #8643dc;
-  border: 0;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 30px;
-
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
 
   text-align: center;
 
-  color: #ffffff;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 30px;
+  background-color: #8643DC;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .rename-this-class {
