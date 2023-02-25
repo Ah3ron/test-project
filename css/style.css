@@ -1,43 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
 
 :root {
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .wrapper {
-    width: 80vw;
-    margin: 50px auto;
+  width: 80vw;
+  margin: 50px auto;
 }
 
 .header__logo {
-    margin-right: 100px;
-    height: 40px;
+  margin-right: 100px;
+  height: 40px;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navbar__list {
-    width: 350px;
+  width: 350px;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar__item {
-    font-size: 20px;
-    font-weight: 500;
-    color: #7E7F86;
+  font-size: 20px;
+  font-weight: 500;
+  color: #7e7f86;
 }
 
 .navbar__item--active {
-    color: #25202F;
+  color: #25202f;
+}
+
+.welcome-section {
+  margin-top: 125px;
+}
+
+.welcome-section__heading {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+
+  color: #25202f;
+  margin-bottom: 0;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.text {
+  font-size: 21px;
+}
+
+.welcome-section__text {
+    margin-bottom: 54px;
+}
+
+.text__hello {
+  font-size: 24px;
+
+  color: #666666;
+}
+
+.welcome-section__button {
+  width: 200px;
+  height: 60px;
+  background-color: #8643dc;
+  border: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #ffffff;
 }
