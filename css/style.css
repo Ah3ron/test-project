@@ -15,14 +15,14 @@
   margin: 50px auto;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
 .header__logo {
   margin-right: 100px;
   height: 40px;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
 }
 
 .navbar__list {
@@ -30,21 +30,18 @@
 
   display: flex;
   justify-content: space-between;
-}
 
-.navbar__list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.navbar__item {
+.navbar__link {
   font-size: 20px;
   font-weight: 500;
   color: #7e7f86;
+  text-decoration: none;
 }
 
-.navbar__item--active {
+.navbar__link--active, .navbar__link:hover {
   color: #25202f;
 }
 
