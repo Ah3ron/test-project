@@ -92,3 +92,7 @@
 
   color: #ffffff;
 }
+
+.rename-this-class {
+  display: flex;
+}
