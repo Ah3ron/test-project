@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-.wrapper {
+.page {
   width: 80vw;
   margin: 50px auto;
 }
@@ -22,7 +22,6 @@
 
 .header__logo {
   margin-right: 100px;
-  height: 40px;
 }
 
 .navbar__list {
@@ -41,12 +40,13 @@
   text-decoration: none;
 }
 
-.navbar__link--active, .navbar__link:hover {
+.navbar__link_active, .navbar__link:hover {
   color: #25202f;
 }
 
 .welcome-section {
   margin-top: 125px;
+  margin-bottom: 270px;
 }
 
 .welcome-section__heading {
