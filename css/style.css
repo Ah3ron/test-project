@@ -113,6 +113,10 @@
   background-color: #8643DC;
 }
 
+.services {
+  margin-bottom: 150px;
+}
+
 .services__heading {
   margin-bottom: 50px;
 }
@@ -126,6 +130,10 @@
 
 .article__icon {
   margin-right: 20px;
+}
+
+.heading-h2 {
+  font-size: 36px;
 }
 
 .heading-h3 {
@@ -143,4 +151,8 @@
   line-height: 32px;
 
   color: #47444E;
+}
+
+.portfolio {
+  background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
 }
