@@ -162,7 +162,6 @@ body {
   background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
 
   backdrop-filter: blur(150px);
-  filter: blur(75px);
 }
 
 .portfolio__header {
@@ -170,13 +169,9 @@ body {
   justify-content: space-between;
 }
 
-
-
 .portfolio__link {
   font-size: 24px;
   font-weight: 500;
-
-  float: right;
 
   color: #25202F;
 
