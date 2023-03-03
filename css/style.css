@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #FFFFFF;
+}
+
 .page {
   width: 80vw;
   margin: 50px auto;
@@ -110,6 +114,7 @@
   margin-top: 10px;
   margin-bottom: 15px;
 
+  border: 0;
   background-color: #8643DC;
 }
 
@@ -155,4 +160,34 @@
 
 .portfolio {
   background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+
+  backdrop-filter: blur(150px);
+  filter: blur(75px);
+}
+
+.portfolio__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.portfolio__link {
+  font-size: 24px;
+  font-weight: 500;
+
+  float: right;
+
+  color: #25202F;
+
+  text-underline-position: under;
+  text-decoration-line: underline;
+}
+
+.portfolio__wrapper {
+  display: flex;
+}
+
+.portfolio__example {
+  width: 100%;
 }
