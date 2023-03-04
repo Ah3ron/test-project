@@ -159,9 +159,7 @@ body {
 }
 
 .portfolio {
-  background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
-
-  backdrop-filter: blur(150px);
+  margin-bottom: 100px;
 }
 
 .portfolio__header {
@@ -185,4 +183,33 @@ body {
 
 .portfolio__example {
   width: 100%;
+}
+
+.clients__heading {
+  margin-bottom: 44px;
+}
+
+.clients__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.clients__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 170px;
+  height: 170px;
+}
+
+.clients__brand-name {
+  font-size: 18px;
+  font-weight: 500;
+
+  color: #000000;
 }
