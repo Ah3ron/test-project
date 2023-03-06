@@ -1,185 +1,190 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Тестовое задание</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <a href="/">
-          <img src="files/logo.svg" alt="Логотип" />
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link menu__link_active" href="/about">About</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="/services">Services</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="/works">Works</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="/blog">Blog</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="intro">
-        <div class="intro__text-container">
-          <p class="intro__hello">Hello,</p>
-          <h1 class="intro__title">Maxim Radyuk</h1>
-          <p class="intro__description">a PolessUP Front-end Developer</p>
-          <button class="intro__button">Let’s Talk</button>
-        </div>
-        <div class="intro__img"><img src="files/programming.svg" alt="" /></div>
-      </section>
-      <section class="services">
-        <span class="section-heading">Services</span>
-        <hr class="section-heading-underline" />
-        <h2 class="services__heading heading-h2">
-          What actually<br />I love to do
-        </h2>
-        <section class="rename-this-class">
-          <article>
-            <div class="article__headline">
-              <img
-                class="article__icon"
-                src="files/mobile icon.svg"
-                alt="Иконка телефона"
-              />
-              <h3 class="heading-h3">UX Research</h3>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Тестовое задание</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header class="section header">
+            <a href="/">
+                <img src="files/logo.svg" alt="Логотип" />
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link_active" href="/about"
+                            >About</a
+                        >
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/services">Services</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/works">Works</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/blog">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section intro">
+            <div class="intro__text-container">
+                <p class="intro__hello">Hello,</p>
+                <h1 class="intro__title">Maxim Radyuk</h1>
+                <p class="intro__description">a PolessUP Front-end Developer</p>
+                <button class="intro__button">Let’s Talk</button>
             </div>
-            <p class="article__text">
-              New demos are continually added and buying a single license for
-              Mak gives you access to all of what's shown below, plus everything
-              that will be added in the future.
-            </p>
-          </article>
-          <article>
-            <div class="article__headline">
-              <img
-                class="article__icon"
-                src="files/brand icon.svg"
-                alt="Иконка бренда"
-              />
-              <h3 class="heading-h3">Brand Design</h3>
+            <div class="intro__img">
+                <img src="files/programming.svg" alt="" />
             </div>
-            <p class="article__text">
-              New demos are continually added and buying a single license for
-              Mak gives you access to all of what's shown below, plus everything
-              that will be added in the future.
-            </p>
-          </article>
-          <article>
-            <div class="article__headline">
-              <img
-                class="article__icon"
-                src="files/page icon.svg"
-                alt="Иконка страницы"
-              />
-              <h3 class="heading-h3">Web Development</h3>
-            </div>
-            <p class="article__text">
-              New demos are continually added and buying a single license for
-              Mak gives you access to all of what's shown below, plus everything
-              that will be added in the future.
-            </p>
-          </article>
         </section>
-      </section>
-      <section class="portfolio">
-        <span class="section-heading">Portfolio</span>
-        <hr class="section-heading-underline" />
-        <div class="portfolio__header">
-          <h2 class="portfolio__heading heading-h2">
-            All Creative <br />Projects
-          </h2>
-          <a
-            href="https://github.com/Ah3ron/test-project"
-            class="portfolio__link"
-          >
-            Explore More <img src="files/arrow right.svg" alt="Стрелка" />
-          </a>
-        </div>
-        <div class="portfolio__wrapper">
-          <img
-            class="portfolio__example"
-            src="files/portolio example.png"
-            alt="Пример проекта"
-          />
-          <img
-            class="portfolio__example"
-            src="files/portolio example 2.png"
-            alt="Пример проекта"
-          />
-        </div>
-      </section>
-      <section class="clients">
-        <span class="section-heading">Clients</span>
-        <hr class="section-heading-underline" />
-        <h2 class="clients__heading heading-h2">Big Deal<br />With</h2>
-        <div class="clients__container">
-          <div class="clients__item">
-            <img src="files/slack logo.svg" alt="Логотип Slack" />
-            <p class="clients__brand-name">Slack</p>
-          </div>
-          <div class="clients__item">
-            <img src="files/medium logo.svg" alt="Логотип Medium" />
-            <p class="clients__brand-name">Medium</p>
-          </div>
-          <div class="clients__item">
-            <img src="files/microsoft logo.svg" alt="Логотип Microsoft" />
-            <p class="clients__brand-name">Microsoft</p>
-          </div>
-          <div class="clients__item">
-            <img src="files/zeplin logo.svg" alt="Логотип Zeplin" />
-            <p class="clients__brand-name">Zeplin</p>
-          </div>
-          <div class="clients__item">
-            <img src="files/shopify logo.svg" alt="Логотип Shopify" />
-            <p class="clients__brand-name">Shopify</p>
-          </div>
-        </div>
-      </section>
-      <footer class="footer">
-        <span class="section-heading">Contact me</span>
-        <hr class="section-heading-underline" />
-        <p class="footer__description">
-          Let me know if you want to talk about a potential collaboration. I'm
-          available for freelance work.
-        </p>
-        <form class="form">
-          <input
-            class="input-field"
-            type="text"
-            id="name"
-            name="name"
-            placeholder="What’s your name?"
-          /><br />
-          <input
-            class="input-field"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your email"
-          /><br />
-          <input
-            class="input-field"
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Tell me about your project"
-          /><br />
-          <input class="submit-btn" type="submit" value="Get a Quote" />
-        </form>
-        <p class="footer__description">Let’s be Friends</p>
-      </footer>
-    </div>
-  </body>
+        <section class="section services">
+            <p class="section-title">Services</p>
+            <h2 class="section__heading services__heading">
+                What actually<br />I love to do
+            </h2>
+            <section class="services-list">
+                <article class="service">
+                    <div class="logo-headline">
+                        <img
+                            class="service__logo"
+                            src="files/mobile icon.svg"
+                            alt="Иконка телефона"
+                        />
+                        <h3 class="service__headline">UX Research</h3>
+                    </div>
+                    <p class="service__text">
+                        New demos are continually added and buying a single
+                        license for Mak gives you access to all of what's shown
+                        below, plus everything that will be added in the future.
+                    </p>
+                </article>
+                <article class="service">
+                    <div class="logo-headline">
+                        <img
+                            class="service__logo"
+                            src="files/brand icon.svg"
+                            alt="Иконка бренда"
+                        />
+                        <h3 class="service__headline">Brand Design</h3>
+                    </div>
+                    <p class="service__text">
+                        New demos are continually added and buying a single
+                        license for Mak gives you access to all of what's shown
+                        below, plus everything that will be added in the future.
+                    </p>
+                </article>
+                <article class="service">
+                    <div class="logo-headline">
+                        <img
+                            class="service__logo"
+                            src="files/page icon.svg"
+                            alt="Иконка страницы"
+                        />
+                        <h3 class="service__headline">Web Development</h3>
+                    </div>
+                    <p class="service__text">
+                        New demos are continually added and buying a single
+                        license for Mak gives you access to all of what's shown
+                        below, plus everything that will be added in the future.
+                    </p>
+                </article>
+            </section>
+        </section>
+        <section class="section portfolio">
+            <p class="section-title">Portfolio</p>
+
+            <div class="portfolio__header">
+                <h2 class="portfolio__heading section__heading">
+                    All Creative <br />Projects
+                </h2>
+                <a
+                    href="https://github.com/Ah3ron/test-project"
+                    class="portfolio__link"
+                >
+                    Explore More
+                    <img src="files/arrow right.svg" alt="Стрелка" />
+                </a>
+            </div>
+            <div class="portfolio__wrapper">
+                <img
+                    class="portfolio__example"
+                    src="files/portolio example.png"
+                    alt="Пример проекта"
+                />
+                <img
+                    class="portfolio__example"
+                    src="files/portolio example 2.png"
+                    alt="Пример проекта"
+                />
+            </div>
+        </section>
+        <section class="section clients">
+            <p class="section-title">Clients</p>
+
+            <h2 class="clients__heading section__heading">Big Deal<br />With</h2>
+            <div class="clients__container">
+                <div class="clients__item">
+                    <img src="files/slack logo.svg" alt="Логотип Slack" />
+                    <p class="clients__brand-name">Slack</p>
+                </div>
+                <div class="clients__item">
+                    <img src="files/medium logo.svg" alt="Логотип Medium" />
+                    <p class="clients__brand-name">Medium</p>
+                </div>
+                <div class="clients__item">
+                    <img
+                        src="files/microsoft logo.svg"
+                        alt="Логотип Microsoft"
+                    />
+                    <p class="clients__brand-name">Microsoft</p>
+                </div>
+                <div class="clients__item">
+                    <img src="files/zeplin logo.svg" alt="Логотип Zeplin" />
+                    <p class="clients__brand-name">Zeplin</p>
+                </div>
+                <div class="clients__item">
+                    <img src="files/shopify logo.svg" alt="Логотип Shopify" />
+                    <p class="clients__brand-name">Shopify</p>
+                </div>
+            </div>
+        </section>
+        <footer class="section footer">
+            <p class="section-title">Contact me</p>
+
+            <p class="footer__description">
+                Let me know if you want to talk about a potential collaboration.
+                I'm available for freelance work.
+            </p>
+            <form class="form">
+                <input
+                    class="input-field"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="What’s your name?"
+                /><br />
+                <input
+                    class="input-field"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                /><br />
+                <input
+                    class="input-field"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Tell me about your project"
+                /><br />
+                <input class="submit-btn" type="submit" value="Get a Quote" />
+            </form>
+            <p class="footer__description">Let’s be Friends</p>
+        </footer>
+    </body>
 </html>
