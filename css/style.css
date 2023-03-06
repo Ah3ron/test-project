@@ -5,12 +5,6 @@
   font-family: "Red Hat Display", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #FFFFFF;
 }
@@ -20,40 +14,45 @@ body {
   margin: 50px auto;
 }
 
+/* HEADER */
+
 .header {
   display: flex;
   align-items: center;
 
-  margin-bottom: 125px;
+  gap: 125px;
 }
 
-.header__logo {
-  margin-right: 100px;
+.menu {
+  width: 350px;
 }
 
-.navbar__list {
+.menu__list {
   display: flex;
   justify-content: space-between;
 
-  width: 350px;
-
-  list-style: none;
+  padding-left: 0;
 }
 
-.navbar__link {
+.menu__item {
+  display: inline-block;
+}
+
+.menu__link {
   font-size: 20px;
   font-weight: 500;
 
-  transition: 0.2s;
   text-decoration: none;
 
   color: #7E7F86;
 }
 
-.navbar__link_active,
-.navbar__link:hover {
+.menu__link_active,
+.menu__link:hover {
   color: #25202F;
 }
+
+/* WELCOME */
 
 .welcome {
   margin-bottom: 270px;
