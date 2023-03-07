@@ -19,8 +19,8 @@ body {
 }
 
 .section {
-  width: 80vw;
-  margin: 0 auto;
+  width: 100vw;
+  padding: 0 10%;
 }
 
 .section__heading {
@@ -197,9 +197,7 @@ body {
 /* SERVICES */
 
 .portfolio {
-  width: 100vw;
   margin-bottom: 100px;
-  padding: 0 10%;
 
   background: rgb(255,177,222);
   background: linear-gradient(0deg, rgba(255,177,222,0) 0%, rgba(202,143,248,0.14) 15%, rgba(190,135,254,0.14) 85%, rgba(255,177,222,0) 100%);
