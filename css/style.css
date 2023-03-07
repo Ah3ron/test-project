@@ -12,6 +12,9 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+
   background-color: #FFFFFF;
 }
 
@@ -158,13 +161,13 @@ body {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 
   gap: 30px;
 }
 
 .service {
-  width: max(calc(33.33% - 20px), 350px);
+  width: max(320px, calc(33.33% - 20px));
 }
 
 .logo-headline {
@@ -218,6 +221,8 @@ body {
   width: 100%;
 }
 
+/* CLIENTS */
+
 .clients {
   margin-bottom: 100px;
 }
@@ -226,25 +231,69 @@ body {
   margin-bottom: 44px;
 }
 
-.clients__container {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 
   width: 100%;
+
+  gap: 50px;
 }
 
-.clients__item {
+.client {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 
   width: 170px;
   height: 170px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--background-color);
+  box-shadow: 0 20px 25px 0 rgba(var(--box-shadow-color), 0.5);
+
+  gap: 30px;
 }
 
-.clients__brand-name {
+.client_slack {
+  --border-color: #FFE7F0;
+  --background-color: #FFF7FA;
+
+  --box-shadow-color: 255, 215, 233;
+}
+
+.client_medium {
+  --border-color: #CAFFE1;
+  --background-color: #EDFFF5;
+
+  --box-shadow-color: 202, 255, 225;
+}
+
+.client_microsoft {
+  --border-color: #DDF5FF;
+  --background-color: #F5FCFF;
+
+  --box-shadow-color: 221, 245, 255;
+}
+
+.client_zeplin {
+  --border-color: #FFEEC9;
+  --background-color: #FFFBF2;
+
+  --box-shadow-color: 255, 238, 201;
+}
+
+.client_shopify {
+  --border-color: #DBFFC4;
+  --background-color: #F4FFED;
+
+  --box-shadow-color: 219, 255, 195;
+}
+
+.client__name {
   font-size: 18px;
   font-weight: 500;
 
@@ -321,4 +370,3 @@ body {
   border: 0;
   background-color: #8643DC;
 }
-
