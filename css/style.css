@@ -12,14 +12,14 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   background-color: #FFFFFF;
 }
 
 .section {
-  width: 100vw;
+  width: 100%;
   padding: 0 10%;
 }
 
@@ -28,6 +28,11 @@ body {
   font-weight: 700;
 
   color: #25202F;
+}
+
+.section_background {
+  background: rgb(255,177,222);
+  background: linear-gradient(0deg, rgba(255,177,222,0) 0%, rgba(202,143,248,0.14) 15%, rgba(190,135,254,0.14) 85%, rgba(255,177,222,0) 100%);
 }
 
 /* HEADER */
@@ -109,7 +114,7 @@ body {
   margin-bottom: 54px;
 }
 
-.intro__button {
+.button {
   font-size: 24px;
 
   width: 200px;
@@ -126,7 +131,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.intro__button:hover {
+.button:hover {
   color: #8643DC;
   border-radius: 30px;
   background-color: #FFFFFF;
@@ -134,7 +139,7 @@ body {
   filter: none;
 }
 
-.intro__button:active {
+.button:active {
   color: #FFFFFF;
   border-radius: 30px;
   background-color: #8643DC;
@@ -198,9 +203,6 @@ body {
 
 .portfolio {
   margin-bottom: 100px;
-
-  background: rgb(255,177,222);
-  background: linear-gradient(0deg, rgba(255,177,222,0) 0%, rgba(202,143,248,0.14) 15%, rgba(190,135,254,0.14) 85%, rgba(255,177,222,0) 100%);
 }
 
 .portfolio__header {
@@ -317,22 +319,39 @@ body {
   color: #000000;
 }
 
-.footer__description {
+/* FOOTER */
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 500;
 
-  width: 50vw;
+  width: 50%;
+  margin-top: 10px;
   margin-bottom: 50px;
 
   color: #21232D;
 }
 
-.form {
+.foooter__mail {
+  font-family: "Roboto";
+  font-size: 24px;
+
+  color: #8643DC;
+
+  text-decoration-line: underline;
+}
+
+.footer__form {
   margin-bottom: 100px;
 }
 
-.input-field {
+.footer__input {
   font-size: 20px;
 
   width: 100%;
@@ -342,24 +361,16 @@ body {
   color: #A8A0B0;
   border: 0;
   border-bottom: 1px solid #DAD2E3;
+  background: rgba(0, 0, 0, 0);
 }
 
-.submit-btn {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
+.footer__input:focus {
+  outline: none;
+}
 
-  width: 200px;
-  height: 60px;
-
-  text-align: center;
-
-  color: #FFFFFF;
-  border: 0;
-  border-radius: 30px;
-  background-color: #8643DC;
-
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.footer__end {
+  display: flex;
+  justify-content: center;
 }
 
 /* OTHERS */

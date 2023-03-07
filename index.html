@@ -36,7 +36,7 @@
                 <p class="intro__hello">Hello,</p>
                 <h1 class="intro__title">Maxim Radyuk</h1>
                 <p class="intro__description">a PolessUP Front-end Developer</p>
-                <button class="intro__button">Let’s Talk</button>
+                <button class="button">Let’s Talk</button>
             </div>
             <div class="intro__img">
                 <img src="files/programming.svg" alt="" />
@@ -95,7 +95,7 @@
                 </article>
             </section>
         </section>
-        <section class="section portfolio">
+        <section class="section section_background portfolio">
             <p class="section-title">Portfolio</p>
             <div class="portfolio__header">
                 <h2 class="portfolio__heading section__heading">
@@ -150,38 +150,34 @@
                 </div>
             </div>
         </section>
-        <footer class="section footer">
+        <footer class="section section_background footer">
             <p class="section-title">Contact me</p>
-
-            <p class="footer__description">
-                Let me know if you want to talk about a potential collaboration.
-                I'm available for freelance work.
-            </p>
-            <form class="form">
+            <div class="footer__info">
+                <p class="footer__text">
+                    Let me know if you want to talk about a potential collaboration.
+                    I'm available for freelance work.
+                </p>
+                <a class="footer__mail" href="mailto:mail@gmail.com">mail@gmail.com</a>
+            </div>
+            <form class="footer__form">
                 <input
-                    class="input-field"
+                    class="footer__input"
                     type="text"
-                    id="name"
-                    name="name"
                     placeholder="What’s your name?"
                 /><br />
                 <input
-                    class="input-field"
+                    class="footer__input"
                     type="email"
-                    id="email"
-                    name="email"
                     placeholder="Your email"
                 /><br />
                 <input
-                    class="input-field"
+                    class="footer__input"
                     type="text"
-                    id="name"
-                    name="name"
                     placeholder="Tell me about your project"
                 /><br />
-                <input class="submit-btn" type="submit" value="Get a Quote" />
+                <input class="button" type="submit" value="Get a Quote" />
             </form>
-            <p class="footer__description">Let’s be Friends</p>
+            </div>
         </footer>
     </body>
 </html>
