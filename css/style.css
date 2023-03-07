@@ -338,7 +338,7 @@ body {
   color: #21232D;
 }
 
-.foooter__mail {
+.footer__mail {
   font-family: "Roboto";
   font-size: 24px;
 
@@ -346,6 +346,13 @@ body {
 
   text-decoration-line: underline;
 }
+
+.footer__mail:hover,
+.footer__mail:focus,
+.footer__mail:visited {
+  color: #8643DC;
+}
+
 
 .footer__form {
   margin-bottom: 100px;
@@ -358,10 +365,14 @@ body {
   height: 44px;
   margin-bottom: 45px;
 
-  color: #A8A0B0;
+  color: #21232D;
   border: 0;
   border-bottom: 1px solid #DAD2E3;
   background: rgba(0, 0, 0, 0);
+}
+
+.footer__input::placeholder {
+  color: #A8A0B0;
 }
 
 .footer__input:focus {
