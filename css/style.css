@@ -194,18 +194,35 @@ body {
   color: #47444E;
 }
 
+/* SERVICES */
+
 .portfolio {
+  width: 100vw;
   margin-bottom: 100px;
+  padding: 0 10%;
+
+  background: rgb(255,177,222);
+  background: linear-gradient(0deg, rgba(255,177,222,0) 0%, rgba(202,143,248,0.14) 15%, rgba(190,135,254,0.14) 85%, rgba(255,177,222,0) 100%);
 }
 
 .portfolio__header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .portfolio__link {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+}
+
+.portfolio__text {
   font-size: 24px;
   font-weight: 500;
+
+  margin-right: 10px;
 
   color: #25202F;
 
@@ -213,12 +230,14 @@ body {
   text-decoration-line: underline;
 }
 
-.portfolio__wrapper {
+.portfolio__images {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.portfolio__example {
-  width: 100%;
+.portfolio__image {
+  width: max(50%, 300px);
 }
 
 /* CLIENTS */
