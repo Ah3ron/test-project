@@ -9,16 +9,17 @@
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <title>Тестовое задание</title>
         <link rel="stylesheet" href="css/style.css" />
+        <script src="script/menu.js" defer></script>
     </head>
     <body>
         <header class="section header">
-            <a href="/">
+            <a class="section__logo" href="/">
                 <img src="files/logo.svg" alt="Логотип" />
             </a>
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu_ _item">
-                        <a class="menu__link menu__l ink_active" href="/about"
+                    <li class="menu__item">
+                        <a class="menu__link menu__link_active" href="/about"
                             >About</a
                         >
                     </li>
@@ -33,6 +34,9 @@
                     </li>
                 </ul>
             </nav>
+            <button class="menu__button">
+                <img src="files/hamburger-menu.svg" alt="Меню">
+            </button>
         </header>
         <section class="section intro">
             <div class="intro__text-container">
