@@ -90,5 +90,10 @@
 
   .footer__text {
     width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .footer__mail {
+    margin-bottom: 15px;
   }
 }
