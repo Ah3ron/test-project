@@ -96,4 +96,8 @@
   .footer__mail {
     margin-bottom: 15px;
   }
+
+  .slider__slide {
+    padding: 25px 0 40px;
+  }
 }

@@ -9,8 +9,9 @@
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <title>Тестовое задание</title>
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/mobile-style.css">
+        <link rel="stylesheet" href="css/mobile-style.css" />
         <script src="script/menu.js" defer></script>
+        <script src="script/slider.js" type="module" defer></script>
     </head>
     <body>
         <header class="section header">
@@ -36,7 +37,7 @@
                 </ul>
             </nav>
             <button class="menu__button">
-                <img src="files/hamburger-menu.svg" alt="Меню">
+                <img src="files/hamburger-menu.svg" alt="Меню" />
             </button>
         </header>
         <section class="section intro">
@@ -66,7 +67,11 @@
                         <h3 class="service__headline">UX Research</h3>
                     </div>
                     <p class="service__text">
-                        As a Frontend Developer, it is essential to understand the needs of users and design interfaces that are easy to use and navigate. Conducting user research, analyzing data, and creating user personas are all crucial skills in this area.
+                        As a Frontend Developer, it is essential to understand
+                        the needs of users and design interfaces that are easy
+                        to use and navigate. Conducting user research, analyzing
+                        data, and creating user personas are all crucial skills
+                        in this area.
                     </p>
                 </article>
                 <article class="service">
@@ -79,7 +84,11 @@
                         <h3 class="service__headline">Brand Design</h3>
                     </div>
                     <p class="service__text">
-                        Creating a visually appealing website that aligns with the company's brand identity is critical in today's competitive digital landscape. As a Frontend Developer, it is essential to have a good understanding of design principles, typography, and color theory.
+                        Creating a visually appealing website that aligns with
+                        the company's brand identity is critical in today's
+                        competitive digital landscape. As a Frontend Developer,
+                        it is essential to have a good understanding of design
+                        principles, typography, and color theory.
                     </p>
                 </article>
                 <article class="service">
@@ -92,7 +101,13 @@
                         <h3 class="service__headline">Web Development</h3>
                     </div>
                     <p class="service__text">
-                        The technical skills required to build a website are vital to a Frontend Developer's job. Proficiency in HTML, CSS, JavaScript, and other web development technologies is necessary to create responsive and dynamic web pages. It is also important to stay up-to-date with the latest trends and technologies in the industry.
+                        The technical skills required to build a website are
+                        vital to a Frontend Developer's job. Proficiency in
+                        HTML, CSS, JavaScript, and other web development
+                        technologies is necessary to create responsive and
+                        dynamic web pages. It is also important to stay
+                        up-to-date with the latest trends and technologies in
+                        the industry.
                     </p>
                 </article>
             </section>
@@ -151,6 +166,37 @@
                     <p class="client__name">Shopify</p>
                 </div>
             </div>
+        </section>
+        <section class="section reviews">
+            <p class="section-title">Testimonials</p>
+            <h2 class="reviews__heading section__heading">
+                What People<br />Says
+            </h2>
+            <div class="slider">
+                <div class="slider__wrapper">
+                  <div class="slider__slide">
+                    <img class="slider__quotation-mark" src="files/quotation-marks.svg" alt="Кавычки">
+                    <p class="slider__quote">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
+                    <img src="files/quote-author-photo.png" alt="" class="slider__author-photo">
+                    <p class="slider__author-name">Michal John</p>
+                    <p class="slider__author-description">CEO of MZP</p>
+                  </div>
+                  <div class="slider__slide">
+                    <img class="slider__quotation-mark" src="files/quotation-marks.svg" alt="Кавычки">
+                    <p class="slider__quote">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
+                    <img src="files/quote-author-photo.png" alt="" class="slider__author-photo">
+                    <p class="slider__author-name">Michal John</p>
+                    <p class="slider__author-description">CEO of MZP</p>
+                  </div>
+                  <div class="slider__slide">
+                    <img class="slider__quotation-mark" src="files/quotation-marks.svg" alt="Кавычки">
+                    <p class="slider__quote">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
+                    <img src="files/quote-author-photo.png" alt="" class="slider__author-photo">
+                    <p class="slider__author-name">Michal John</p>
+                    <p class="slider__author-description">CEO of MZP</p>
+                  </div>
+            </div>
+            <div class="slider__dots"></div>
         </section>
         <footer class="section section_background footer">
             <p class="section-title">Contact me</p>
