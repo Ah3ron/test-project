@@ -10,7 +10,7 @@ menuButton.addEventListener("click", () => {
     }, 100);
 });
 
-document.addEventListener("click", (e) => {
+document.body.addEventListener("click", (e) => {
     if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
         menu.classList.remove("menu_visible");
     }
