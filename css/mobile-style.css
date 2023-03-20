@@ -97,6 +97,10 @@
     margin-bottom: 15px;
   }
 
+  .background-faces {
+    display: none;
+  }
+
   .slider__slide {
     padding: 25px 0 40px;
   }

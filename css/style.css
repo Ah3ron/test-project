@@ -389,6 +389,34 @@ body {
 }
 
 /* REVIEWS */
+.reviews {
+  position: relative;
+}
+
+.background-faces {
+  position: absolute;
+  z-index: -1;
+}
+
+.background-face1 {
+  top: 29%;
+  left: 13%;
+}
+
+.background-face2 {
+  top: 29%;
+  right: 13%;
+}
+
+.background-face3 {
+  top: 73%;
+  left: 23%;
+}
+
+.background-face4 {
+  top: 73%;
+  right: 23%;
+}
 
 .slider {
   position: relative;
