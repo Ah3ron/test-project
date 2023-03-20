@@ -1,5 +1,5 @@
 const btn = document.querySelector(".social-button");
-const popup = document.querySelector(".popup");
+const popup = document.querySelector(".popup-links");
 const popupOverlay = document.querySelector(".popup-overlay");
 
 btn.addEventListener("click", function () {
