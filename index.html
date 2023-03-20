@@ -1,283 +1,330 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta content="true" name="HandheldFriendly" />
-        <meta content="width" name="MobileOptimized" />
-        <meta content="yes" name="apple-mobile-web-app-capable" />
-        <title>Тестовое задание</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/mobile-style.css" />
-        <script src="script/menu.js" defer></script>
-        <script src="script/slider.js" type="module" defer></script>
-        <script src="script/popup.js" defer></script>
-    </head>
-    <body>
-        <header class="section header">
-            <a class="section__logo" href="/">
-                <img src="files/logo.svg" alt="Логотип" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta content="true" name="HandheldFriendly" />
+    <meta content="width" name="MobileOptimized" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile-style.css" />
+    <script src="script/menu.js" defer></script>
+    <script src="script/slider.js" type="module" defer></script>
+    <script src="script/popup.js" defer></script>
+  </head>
+  <body>
+    <header class="section header">
+      <a class="section__logo" href="/">
+        <img src="files/logo.svg" alt="Логотип" />
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link menu__link_active" href="/about">About</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/services">Services</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/works">Works</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/blog">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu__button">
+        <img src="files/hamburger-menu.svg" alt="Меню" />
+      </button>
+    </header>
+    <section class="section intro">
+      <div class="intro__text-container">
+        <p class="intro__hello">Hello,</p>
+        <h1 class="intro__title">Maxim Radyuk</h1>
+        <p class="intro__description">a PolessUP Front-end Developer</p>
+        <button class="button social-button">Let’s Talk</button>
+        <div class="popup-overlay">
+          <div class="popup">
+            <a href="#" class="social-link">
+              <img src="files/ball-icon.svg" alt="Иконка мяча" />
             </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a class="menu__link menu__link_active" href="/about"
-                            >About</a
-                        >
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/services">Services</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/works">Works</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/blog">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="menu__button">
-                <img src="files/hamburger-menu.svg" alt="Меню" />
-            </button>
-        </header>
-        <section class="section intro">
-            <div class="intro__text-container">
-                <p class="intro__hello">Hello,</p>
-                <h1 class="intro__title">Maxim Radyuk</h1>
-                <p class="intro__description">a PolessUP Front-end Developer</p>
-                <button class="button social-button">Let’s Talk</button>
-                <div class="popup-overlay">
-                    <div class="popup">
-                      <a href="#" class="social-link">
-                        <img src="files/ball-icon.svg" alt="Иконка мяча">
-                      </a>
-                      <a href="#" class="social-link">
-                        <img src="files/instagram-icon.svg" alt="Иконка инстаграмма">
-                      </a>
-                      <a href="#" class="social-link">
-                        <img src="files/linkedin-icon.svg" alt="Иконка линкедина">
-                      </a>
-                    </div>
-                </div>
-            </div>
-            <div class="intro__img">
-                <img src="files/programming.svg" alt="" />
-            </div>
-        </section>
-        <section class="section services">
-            <p class="section-title">Services</p>
-            <h2 class="section__heading services__heading">
-                What actually<br />I love to do
-            </h2>
-            <section class="services-list">
-                <article class="service">
-                    <div class="logo-headline">
-                        <img
-                            class="service__logo"
-                            src="files/mobile-icon.svg"
-                            alt="Иконка телефона"
-                        />
-                        <h3 class="service__headline">UX Research</h3>
-                    </div>
-                    <p class="service__text">
-                        As a Frontend Developer, it is essential to understand
-                        the needs of users and design interfaces that are easy
-                        to use and navigate. Conducting user research, analyzing
-                        data, and creating user personas are all crucial skills
-                        in this area.
-                    </p>
-                </article>
-                <article class="service">
-                    <div class="logo-headline">
-                        <img
-                            class="service__logo"
-                            src="files/brand-icon.svg"
-                            alt="Иконка бренда"
-                        />
-                        <h3 class="service__headline">Brand Design</h3>
-                    </div>
-                    <p class="service__text">
-                        Creating a visually appealing website that aligns with
-                        the company's brand identity is critical in today's
-                        competitive digital landscape. As a Frontend Developer,
-                        it is essential to have a good understanding of design
-                        principles, typography, and color theory.
-                    </p>
-                </article>
-                <article class="service">
-                    <div class="logo-headline">
-                        <img
-                            class="service__logo"
-                            src="files/page-icon.svg"
-                            alt="Иконка страницы"
-                        />
-                        <h3 class="service__headline">Web Development</h3>
-                    </div>
-                    <p class="service__text">
-                        The technical skills required to build a website are
-                        vital to a Frontend Developer's job. Proficiency in
-                        HTML, CSS, JavaScript, and other web development
-                        technologies is necessary to create responsive and
-                        dynamic web pages. It is also important to stay
-                        up-to-date with the latest trends and technologies in
-                        the industry.
-                    </p>
-                </article>
-            </section>
-        </section>
-        <section class="section section_background portfolio">
-            <p class="section-title">Portfolio</p>
-            <div class="portfolio__header">
-                <h2 class="portfolio__heading section__heading">
-                    All Creative <br />Projects
-                </h2>
-                <a href="https://github.com/Ah3ron/" class="portfolio__link">
-                    <span class="portfolio__text">Explore More</span>
-                    <img src="files/arrow-right.svg" alt="Стрелка" />
-                </a>
-            </div>
-            <div class="portfolio__images">
-                <img
-                    class="portfolio__image"
-                    src="files/portolio-example.png"
-                    alt="Пример проекта"
-                />
-                <img
-                    class="portfolio__image"
-                    src="files/portolio-example 2.png"
-                    alt="Пример проекта 2"
-                />
-            </div>
-        </section>
-        <section class="section clients">
-            <p class="section-title">Clients</p>
-            <h2 class="clients__heading section__heading">
-                Big Deal<br />With
-            </h2>
-            <div class="clients__list">
-                <div class="client client_slack">
-                    <img src="files/slack-logo.svg" alt="Логотип Slack" />
-                    <p class="client__name">Slack</p>
-                </div>
-                <div class="client client_medium">
-                    <img src="files/medium-logo.svg" alt="Логотип Medium" />
-                    <p class="client__name">Medium</p>
-                </div>
-                <div class="client client_microsoft">
-                    <img
-                        src="files/microsoft-logo.svg"
-                        alt="Логотип Microsoft"
-                    />
-                    <p class="client__name">Microsoft</p>
-                </div>
-                <div class="client client_zeplin">
-                    <img src="files/zeplin-logo.svg" alt="Логотип Zeplin" />
-                    <p class="client__name">Zeplin</p>
-                </div>
-                <div class="client client_shopify">
-                    <img src="files/shopify-logo.svg" alt="Логотип Shopify" />
-                    <p class="client__name">Shopify</p>
-                </div>
-            </div>
-        </section>
-        <section class="section section_background reviews">
-            <p class="section-title">Testimonials</p>
-            <h2 class="reviews__heading section__heading">
-                What People<br />Says
-            </h2>
-            <div class="slider">
-                <div class="slider__wrapper">
-                  <div class="slider__slide">
-                    <img class="slider__quotation-mark" src="files/quotation-marks.svg" alt="Кавычки">
-                    <p class="slider__quote">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
-                    <img src="files/quote-author-photo.png" alt="" class="slider__author-photo">
-                    <p class="slider__author-name">Michal John</p>
-                    <p class="slider__author-description">CEO of MZP</p>
-                  </div>
-                  <div class="slider__slide">
-                    <img class="slider__quotation-mark" src="files/quotation-marks.svg" alt="Кавычки">
-                    <p class="slider__quote">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
-                    <img src="files/quote-author-photo.png" alt="" class="slider__author-photo">
-                    <p class="slider__author-name">Michal John</p>
-                    <p class="slider__author-description">CEO of MZP</p>
-                  </div>
-                  <div class="slider__slide">
-                    <img class="slider__quotation-mark" src="files/quotation-marks.svg" alt="Кавычки">
-                    <p class="slider__quote">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
-                    <img src="files/quote-author-photo.png" alt="" class="slider__author-photo">
-                    <p class="slider__author-name">Michal John</p>
-                    <p class="slider__author-description">CEO of MZP</p>
-                  </div>
-            </div>
-            <div class="slider__dots"></div>
-        </section>
-        <section class="section blog">
-            <div class="blog-posts">
-                <div class="blog__header">
-                    <p class="section-title">Blog</p>
-                    <h2 class="blog__heading section__heading">
-                        Get News<br>Feeds
-                    </h2>
-                </div>
-                <div class="blog-post blog-post--large">
-                  <img class="blog-post__image" src="files/blog1.png" alt="Картинка статьи блога 1">
-                  <div class="blog-post__content">
-                    <time class="blog-post__date" datetime="2020-06-20">20 June/2020</time>
-                    <h3 class="blog-post__title">Technology is evolving rapidly. New devices and applications.</h3>
-                  </div>
-                </div>
-                <div class="blog-post blog-post--small">
-                  <div class="blog-post__image-overlay">
-                    <img class="blog-post__image" src="files/blog2.png" alt="Картинка статьи блога 2">
-                    <div class="blog-post__gradient"></div>
-                  </div>
-                  <div class="blog-post__content">
-                    <time class="blog-post__date" datetime="2020-06-20">20 June/2020</time>
-                    <h3 class="blog-post__title">New devices and applications come to the market.</h3>
-                  </div>
-                </div>
-                <div class="blog-post blog-post--small">
-                  <div class="blog-post__image-overlay">
-                    <img class="blog-post__image" src="files/blog3.png" alt="Картинка статьи блога 3">
-                    <div class="blog-post__gradient"></div>
-                  </div>
-                  <div class="blog-post__content">
-                    <time class="blog-post__date" datetime="2020-06-20">20 June/2020</time>
-                    <h3 class="blog-post__title">Every day providing solutions to problems.</h3>
-                  </div>
-                </div>
-              </div>
-        </section>
-        <footer class="section section_background footer">
-            <p class="section-title">Contact me</p>
-            <div class="footer__info">
-                <p class="footer__text">
-                    Let me know if you want to talk about a potential
-                    collaboration. I'm available for freelance work.
-                </p>
-                <a class="footer__mail" href="mailto:mail@gmail.com"
-                    >mail@gmail.com</a
-                >
-            </div>
-            <form class="footer__form">
-                <input
-                    class="footer__input"
-                    type="text"
-                    placeholder="What’s your name?"
-                /><br />
-                <input
-                    class="footer__input"
-                    type="email"
-                    placeholder="Your email"
-                /><br />
-                <input
-                    class="footer__input"
-                    type="text"
-                    placeholder="Tell me about your project"
-                /><br />
-                <input class="button" type="submit" value="Get a Quote" />
-            </form>
-        </footer>
-    </body>
+            <a href="#" class="social-link">
+              <img src="files/instagram-icon.svg" alt="Иконка инстаграмма" />
+            </a>
+            <a href="#" class="social-link">
+              <img src="files/linkedin-icon.svg" alt="Иконка линкедина" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="intro__img">
+        <img src="files/programming.svg" alt="" />
+      </div>
+    </section>
+    <section class="section services">
+      <p class="section-title">Services</p>
+      <h2 class="section__heading services__heading">
+        What actually<br />I love to do
+      </h2>
+      <section class="services-list">
+        <article class="service">
+          <div class="logo-headline">
+            <img
+              class="service__logo"
+              src="files/mobile-icon.svg"
+              alt="Иконка телефона"
+            />
+            <h3 class="service__headline">UX Research</h3>
+          </div>
+          <p class="service__text">
+            As a Frontend Developer, it is essential to understand the needs of
+            users and design interfaces that are easy to use and navigate.
+            Conducting user research, analyzing data, and creating user personas
+            are all crucial skills in this area.
+          </p>
+        </article>
+        <article class="service">
+          <div class="logo-headline">
+            <img
+              class="service__logo"
+              src="files/brand-icon.svg"
+              alt="Иконка бренда"
+            />
+            <h3 class="service__headline">Brand Design</h3>
+          </div>
+          <p class="service__text">
+            Creating a visually appealing website that aligns with the company's
+            brand identity is critical in today's competitive digital landscape.
+            As a Frontend Developer, it is essential to have a good
+            understanding of design principles, typography, and color theory.
+          </p>
+        </article>
+        <article class="service">
+          <div class="logo-headline">
+            <img
+              class="service__logo"
+              src="files/page-icon.svg"
+              alt="Иконка страницы"
+            />
+            <h3 class="service__headline">Web Development</h3>
+          </div>
+          <p class="service__text">
+            The technical skills required to build a website are vital to a
+            Frontend Developer's job. Proficiency in HTML, CSS, JavaScript, and
+            other web development technologies is necessary to create responsive
+            and dynamic web pages. It is also important to stay up-to-date with
+            the latest trends and technologies in the industry.
+          </p>
+        </article>
+      </section>
+    </section>
+    <section class="section section_background portfolio">
+      <p class="section-title">Portfolio</p>
+      <div class="portfolio__header">
+        <h2 class="portfolio__heading section__heading">
+          All Creative <br />Projects
+        </h2>
+        <a href="https://github.com/Ah3ron/" class="portfolio__link">
+          <span class="portfolio__text">Explore More</span>
+          <img src="files/arrow-right.svg" alt="Стрелка" />
+        </a>
+      </div>
+      <div class="portfolio__images">
+        <img
+          class="portfolio__image"
+          src="files/portolio-example.png"
+          alt="Пример проекта"
+        />
+        <img
+          class="portfolio__image"
+          src="files/portolio-example 2.png"
+          alt="Пример проекта 2"
+        />
+      </div>
+    </section>
+    <section class="section clients">
+      <p class="section-title">Clients</p>
+      <h2 class="clients__heading section__heading">Big Deal<br />With</h2>
+      <div class="clients__list">
+        <div class="client client_slack">
+          <img src="files/slack-logo.svg" alt="Логотип Slack" />
+          <p class="client__name">Slack</p>
+        </div>
+        <div class="client client_medium">
+          <img src="files/medium-logo.svg" alt="Логотип Medium" />
+          <p class="client__name">Medium</p>
+        </div>
+        <div class="client client_microsoft">
+          <img src="files/microsoft-logo.svg" alt="Логотип Microsoft" />
+          <p class="client__name">Microsoft</p>
+        </div>
+        <div class="client client_zeplin">
+          <img src="files/zeplin-logo.svg" alt="Логотип Zeplin" />
+          <p class="client__name">Zeplin</p>
+        </div>
+        <div class="client client_shopify">
+          <img src="files/shopify-logo.svg" alt="Логотип Shopify" />
+          <p class="client__name">Shopify</p>
+        </div>
+      </div>
+    </section>
+    <section class="section section_background reviews">
+      <p class="section-title">Testimonials</p>
+      <h2 class="reviews__heading section__heading">What People<br />Says</h2>
+      <div class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__slide">
+            <img
+              class="slider__quotation-mark"
+              src="files/quotation-marks.svg"
+              alt="Кавычки"
+            />
+            <p class="slider__quote">
+              Quote testimonials demonstrate support for your product or feature
+              from a user who has experience with it. This can be significantly
+              more effective than traditional advertising methods as most
+              consumers will trust.
+            </p>
+            <img
+              src="files/quote-author-photo.png"
+              alt=""
+              class="slider__author-photo"
+            />
+            <p class="slider__author-name">Michal John</p>
+            <p class="slider__author-description">CEO of MZP</p>
+          </div>
+          <div class="slider__slide">
+            <img
+              class="slider__quotation-mark"
+              src="files/quotation-marks.svg"
+              alt="Кавычки"
+            />
+            <p class="slider__quote">
+              Quote testimonials demonstrate support for your product or feature
+              from a user who has experience with it. This can be significantly
+              more effective than traditional advertising methods as most
+              consumers will trust.
+            </p>
+            <img
+              src="files/quote-author-photo.png"
+              alt=""
+              class="slider__author-photo"
+            />
+            <p class="slider__author-name">Michal John</p>
+            <p class="slider__author-description">CEO of MZP</p>
+          </div>
+          <div class="slider__slide">
+            <img
+              class="slider__quotation-mark"
+              src="files/quotation-marks.svg"
+              alt="Кавычки"
+            />
+            <p class="slider__quote">
+              Quote testimonials demonstrate support for your product or feature
+              from a user who has experience with it. This can be significantly
+              more effective than traditional advertising methods as most
+              consumers will trust.
+            </p>
+            <img
+              src="files/quote-author-photo.png"
+              alt=""
+              class="slider__author-photo"
+            />
+            <p class="slider__author-name">Michal John</p>
+            <p class="slider__author-description">CEO of MZP</p>
+          </div>
+        </div>
+        <div class="slider__dots"></div>
+      </div>
+    </section>
+    <section class="section blog">
+      <div class="blog-posts">
+        <div class="blog__header">
+          <p class="section-title">Blog</p>
+          <h2 class="blog__heading section__heading">Get News<br />Feeds</h2>
+        </div>
+        <div class="blog-post blog-post--large">
+          <img
+            class="blog-post__image"
+            src="files/blog1.png"
+            alt="Картинка статьи блога 1"
+          />
+          <div class="blog-post__content">
+            <time class="blog-post__date" datetime="2020-06-20"
+              >20 June/2020</time
+            >
+            <h3 class="blog-post__title">
+              Technology is evolving rapidly. New devices and applications.
+            </h3>
+          </div>
+        </div>
+        <div class="blog-post blog-post--small">
+          <div class="blog-post__image-overlay">
+            <img
+              class="blog-post__image"
+              src="files/blog2.png"
+              alt="Картинка статьи блога 2"
+            />
+            <div class="blog-post__gradient"></div>
+          </div>
+          <div class="blog-post__content">
+            <time class="blog-post__date" datetime="2020-06-20"
+              >20 June/2020</time
+            >
+            <h3 class="blog-post__title">
+              New devices and applications come to the market.
+            </h3>
+          </div>
+        </div>
+        <div class="blog-post blog-post--small">
+          <div class="blog-post__image-overlay">
+            <img
+              class="blog-post__image"
+              src="files/blog3.png"
+              alt="Картинка статьи блога 3"
+            />
+            <div class="blog-post__gradient"></div>
+          </div>
+          <div class="blog-post__content">
+            <time class="blog-post__date" datetime="2020-06-20"
+              >20 June/2020</time
+            >
+            <h3 class="blog-post__title">
+              Every day providing solutions to problems.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section section_background footer">
+      <p class="section-title">Contact me</p>
+      <div class="footer__info">
+        <p class="footer__text">
+          Let me know if you want to talk about a potential collaboration. I'm
+          available for freelance work.
+        </p>
+        <a class="footer__mail" href="mailto:mail@gmail.com">mail@gmail.com</a>
+      </div>
+      <form class="footer__form">
+        <input
+          class="footer__input"
+          type="text"
+          placeholder="What’s your name?"
+        /><br />
+        <input
+          class="footer__input"
+          type="email"
+          placeholder="Your email"
+        /><br />
+        <input
+          class="footer__input"
+          type="text"
+          placeholder="Tell me about your project"
+        /><br />
+        <input class="button" type="submit" value="Get a Quote" />
+      </form>
+    </footer>
+  </body>
 </html>
