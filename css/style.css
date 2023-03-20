@@ -161,25 +161,6 @@ body {
   background-color: #8643DC;
 }
 
-.close-btn {
-  font-size: 20px;
-
-  top: 10px;
-  right: 10px;
-
-  align-self: flex-end;
-
-  cursor: pointer;
-
-  border: none;
-  background-color: transparent;
-}
-
-.close-btn:hover {
-  color: red;
-}
-
-
 .popup-overlay {
   position: fixed;
   top: 0;
